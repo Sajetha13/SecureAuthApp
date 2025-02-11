@@ -44,7 +44,7 @@ This project demonstrates how I learned to implement a simple authentication sys
 ![Dashboard](./assets(readme)/fin.png)  
 
 ### Error Message  
-![Warning](./assets(readme)/log.png)  
+![Warning](./assets(readme)/err.png)  
 
 ## Demo Video  
 
