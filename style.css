@@ -1,0 +1,279 @@
+/* 🌟 Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #111; 
+    color: #ffdd57; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Terminal Style */
+.terminal {
+    background: #000;
+    color: #0f0; 
+    font-family: 'Courier New', monospace;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.4);
+    width: 90%;
+    max-width: 500px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/*  Terminal Box Title */
+.terminal-title {
+    font-size: 1.5rem;
+    color: #ffaa33; 
+    text-shadow: 1px 1px 2px #ffcc66;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.terminal p {
+    margin: 5px 0;
+    animation: typing 3s steps(30, end);
+}
+
+.success {
+    color: #ffdd57;
+}
+
+/* Warning Box */
+.warning {
+    background: #222;
+    color: #ffcc00;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgba(255, 200, 0, 0.3);
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.warning-text {
+    color: red;
+}
+.warning ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.warning li {
+    margin: 5px 0;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background: linear-gradient(45deg, #ffcc00, #ff8c00);
+    color: black;
+    border: none;
+    padding: 10px 18px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff8c00, #ffcc00);
+    transform: translateY(-2px);
+}
+
+/* Typing Animation */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+/* Center Container */
+.container {
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255, 200, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Headers */
+h1 {
+    font-size: 2rem;
+    color: #ffce2c; /* Soft orange */
+    text-shadow: 1px 1px 5px #ffcc66;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #d5960e;
+}
+
+h4, h5 {
+    margin-bottom: 10px;
+    color: #ffe433;
+}
+p{
+    margin-bottom: 10px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ffaa33; 
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    color: #ffaa00;
+    opacity: 0.8;
+}
+
+/*  Password Field */
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #ffaa33;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 15px;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(45deg, #ffcc00, #ff8c00); /* Gold to Orange */
+    color: black;
+    border: none;
+    padding: 10px 18px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: 0.2s;
+    white-space: nowrap;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff8c00, #ffcc00);
+    transform: translateY(-2px);
+}
+
+/* Links */
+a {
+    color: #ffaa33;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+}
+
+a:hover {
+    color: #ffdd57;
+}
+
+/* Dashboard Box */
+#dashboard {
+    background: #222;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px rgba(255, 200, 0, 0.3);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Logout Button */
+#logoutBtn {
+    background: #d8a60ece; 
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.2s;
+}
+
+#logoutBtn:hover {
+    background: #c9302c;
+    transform: translateY(-2px);
+}
+
+.remember-me {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; 
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.remember-container {
+    width: 100%;
+    text-align: center; 
+    margin-bottom: 1px; 
+}
+
+.dashboard-container {
+    background: #1a1a1a;
+    padding: 60px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(255, 200, 0, 0.3);
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.alert-box {
+    background: rgba(255, 0, 0, 0.2); 
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
