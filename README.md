@@ -16,7 +16,7 @@ This project demonstrates how I learned to implement a simple authentication sys
 ## Live Demo
 
 
-[vercel app deployment](secure-auth-app-neon.vercel.app)
+[vercel app deployment](https://secure-auth-app-neon.vercel.app/)
 
 
 ##  Technology Used
