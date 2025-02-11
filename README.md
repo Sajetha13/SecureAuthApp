@@ -4,7 +4,7 @@ A minimal authentication system using Firebase, built as a learning project.
 
 ## Overview
 
-This project demonstrates how to implement a simple authentication system using Firebase. It includes a login and signup system, a dashboard, and basic security warnings.
+This project demonstrates how I learned to implement a simple authentication system using Firebase. It includes a login and signup system, a dashboard, and basic security warnings.
 
 ## Features
 
