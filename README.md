@@ -48,4 +48,4 @@ This project demonstrates how I learned to implement a simple authentication sys
 
 ## Demo Video  
 
-![Demo Video](https://user-images.githubusercontent.com/yourusername/demo.mp4)  
+![Demo Video](./assets(readme)/20250211-1312-02.5407666.mp4)  
