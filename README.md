@@ -49,3 +49,7 @@ This project demonstrates how I learned to implement a simple authentication sys
 ![Warning](./assets(readme)/err.png)  
 
 ## Thank You!
+
+This project is just me experimenting and learning new tools, so there’s nothing great here.
+
+Thanks for stopping by!
