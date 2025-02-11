@@ -31,15 +31,20 @@ This project demonstrates how I learned to implement a simple authentication sys
 4. Clicking logout ends the session and returns the user to the login page.
 
 ## Screenshots  
+### Home Page
+![Home Page](./assets(readme)/ind.png)  
 
 ### Login Page  
-![Login Page](./screenshots/login.png)  
+![Login Page](./assets(readme)/log.png)  
+
+### Sign in Page
+![Sign in Page](./assets(readme)/sign.png)  
 
 ### Dashboard  
-![Dashboard](./screenshots/dashboard.png)  
+![Dashboard](./assets(readme)/fin.png)  
 
-### Warning Message  
-![Warning](./screenshots/warning.png)  
+### Error Message  
+![Warning](./assets(readme)/log.png)  
 
 ## Demo Video  
 
