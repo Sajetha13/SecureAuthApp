@@ -15,7 +15,9 @@ This project demonstrates how I learned to implement a simple authentication sys
 
 ## Live Demo
 
-[Your Vercel Deployment Link]
+
+[vercel app](secure-auth-app-neon.vercel.app)
+
 
 ##  Technology Used
 
@@ -46,6 +48,4 @@ This project demonstrates how I learned to implement a simple authentication sys
 ### Error Message  
 ![Warning](./assets(readme)/err.png)  
 
-## Demo Video  
-
-![Demo Video](./assets(readme)/20250211-1312-02.5407666.mp4)  
+## Thank You!
